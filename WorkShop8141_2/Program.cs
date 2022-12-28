@@ -23,7 +23,7 @@ namespace WorkShop8141_2
                 for (int i = 0; i < giris.Length; i++)
                 {
                     bulundu = false;
-                    for (char c = '0'; c <= '9'; c++)
+                    for (char c = '0'; c <= '9'; c++) 
                     {
                         if (giris[i] == c)
                         {
